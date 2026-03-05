@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin Học Quốc Đồng | Giải Pháp Công Nghệ Toàn Diện</title>
+    <meta name="description"
+        content="Quốc Đồng - Cung cấp giải pháp công nghệ toàn diện tại Cà Mau. Mua bán Laptop/PC, sửa chữa, lắp đặt camera, thiết bị mạng.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fas fa-desktop"></i></div>
+                <span class="logo-text">TIN HỌC QUỐC ĐỒNG</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="contact.jsp">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search services...">
+                </div>
+                <a href="tel:0949754678" class="btn btn-primary btn-call">
+                    <i class="fas fa-phone-alt"></i> 0949 754 678
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-right">
+                <div class="trust-badge">
+                    <i class="fas fa-shield-alt"></i> TRUSTED TECH PARTNER IN CA MAU
+                </div>
+                <h1 class="hero-title">
+                    Giải Pháp Công Nghệ<br>
+                    <span class="text-primary">Toàn Diện</span>
+                </h1>
+                <p class="hero-desc">
+                    Mua bán – Sửa chữa – Lắp đặt Camera – Laptop/PC – Máy in. Đem đến sự tin cậy và chất lượng cho mọi
+                    gia đình và doanh nghiệp.
+                </p>
+                <div class="hero-buttons">
+                    <a href="services" class="btn btn-primary">Xem Dịch Vụ <i class="fas fa-arrow-right"></i></a>
+                    <a href="contact.jsp" class="btn btn-outline">Liên Hệ Ngay</a>
+                </div>
+                <div class="customer-stats">
+                    <div class="avatars">
+                        <div class="avatar" style="background-color: #ddd;"></div>
+                        <div class="avatar" style="background-color: #f1c40f; margin-left: -15px;"></div>
+                        <div class="avatar" style="background-color: #3498db; margin-left: -15px;"></div>
+                    </div>
+                    <span class="stats-text">Được tin dùng bởi 1,000+ khách hàng tại Cà Mau</span>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                <div class="image-wrapper">
+                    <!-- Placeholder image representing a modern workspace -->
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+                        alt="Tech Workspace">
+
+                    <div class="floating-badge badge-warranty">
+                        <div class="badge-icon"><i class="fas fa-tools"></i></div>
+                        <div class="badge-text">
+                            <strong>SỬA CHỮA NHANH</strong>
+                            <span>Bảo hành 12 tháng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">DỊCH VỤ CỦA CHÚNG TÔI</span>
+                <h2 class="section-title">Chúng tôi hỗ trợ bạn những gì?</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card" onclick="window.location.href='services?type=repair'"
+                    style="cursor: pointer;">
+                    <div class="service-icon bg-blue-light text-blue"><i class="fas fa-laptop"></i></div>
+                    <h3><a href="services?type=repair" style="text-decoration: none; color: inherit;">Mua Bán
+                            Laptop/PC</a></h3>
+                    <p>Cung cấp các dòng Laptop, máy tính để bàn mới và cũ chính hãng với cấu hình mạnh mẽ.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card" onclick="window.location.href='services?type=repair'" style="cursor: pointer;"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon bg-orange-light text-orange"><i class="fas fa-wrench"></i></div>
+                    <h3><a href="services?type=repair" style="text-decoration: none; color: inherit;">Dịch Vụ Sửa
+                            Chữa</a></h3>
+                    <p>Khắc phục mọi sự cố phần cứng, phần mềm. Cài đặt hệ điều hành, vệ sinh máy lấy liền.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card" onclick="window.location.href='services?type=camera'" style="cursor: pointer;"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon bg-green-light text-green"><i class="fas fa-video"></i></div>
+                    <h3><a href="services?type=camera" style="text-decoration: none; color: inherit;">Lắp Đặt Camera</a>
+                    </h3>
+                    <p>Giải pháp an ninh toàn diện, camera quan sát từ xa cho gia đình, cửa hàng, công ty.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card" onclick="window.location.href='services?type=repair'" style="cursor: pointer;"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon bg-purple-light text-purple"><i class="fas fa-print"></i></div>
+                    <h3><a href="services?type=repair" style="text-decoration: none; color: inherit;">Máy In & Mực
+                            In</a></h3>
+                    <p>Nạp mực máy in tận nơi, sửa chữa máy in kẹt giấy, không lên nguồn, mờ chữ.</p>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card" onclick="window.location.href='services?type=camera'" style="cursor: pointer;"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon bg-red-light text-red"><i class="fas fa-network-wired"></i></div>
+                    <h3><a href="services?type=camera" style="text-decoration: none; color: inherit;">Thiết Bị Mạng</a>
+                    </h3>
+                    <p>Tư vấn lắp đặt hệ thống WiFi, bộ kích sóng, hệ thống mạng nội bộ ổn định.</p>
+                </div>
+                <!-- Service 6 -->
+                <div class="service-card" onclick="window.location.href='services?type=solar'" style="cursor: pointer;"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon bg-yellow-light text-yellow"><i class="fas fa-sun"></i></div>
+                    <h3><a href="services?type=solar" style="text-decoration: none; color: inherit;">Đèn Năng Lượng</a>
+                    </h3>
+                    <p>Cung cấp đèn năng lượng mặt trời tiết kiệm điện, độ bền cao, bảo hành dài hạn.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header header-inline" data-aos="fade-up">
+                <div>
+                    <span class="section-subtitle">SẢN PHẨM NỔI BẬT</span>
+                    <h2 class="section-title">Hàng mới về & Bán chạy</h2>
+                </div>
+                <a href="#" class="view-all">Xem tất cả sản phẩm <i class="fas fa-chevron-right"></i></a>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image">
+                        <span class="product-badge badge-red">BEST SELLER</span>
+                        <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=400&q=80"
+                            alt="Laptop">
+                    </div>
+                    <div class="product-info">
+                        <span class="category">LAPTOP</span>
+                        <h3 class="product-name">Laptop Dell Vostro 3510</h3>
+                        <div class="product-footer">
+                            <span class="price text-primary font-bold">Liên hệ</span>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge badge-blue">MỚI VỀ</span>
+                        <img src="https://images.unsplash.com/photo-1557825835-70d97c4aa567?auto=format&fit=crop&w=400&q=80"
+                            alt="Camera">
+                    </div>
+                    <div class="product-info">
+                        <span class="category">CAMERA</span>
+                        <h3 class="product-name">Camera Ezviz H8c 2K</h3>
+                        <div class="product-footer">
+                            <span class="price text-primary font-bold">Liên hệ</span>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&w=400&q=80"
+                            alt="PC Build">
+                    </div>
+                    <div class="product-info">
+                        <span class="category">PC BUILD</span>
+                        <h3 class="product-name">PC Gaming Core i5 Gen 12</h3>
+                        <div class="product-footer">
+                            <span class="price text-primary font-bold">Liên hệ</span>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=400&q=80"
+                            alt="Máy In">
+                    </div>
+                    <div class="product-info">
+                        <span class="category">MÁY IN</span>
+                        <h3 class="product-name">Máy In Canon LBP2900</h3>
+                        <div class="product-footer">
+                            <span class="price text-primary font-bold">Liên hệ</span>
+                            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support CTA Banner -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-banner">
+                <div class="cta-content">
+                    <h2>Bạn cần hỗ trợ kỹ thuật?</h2>
+                    <p>Đội ngũ kỹ thuật của Quốc Đồng sẵn sàng hỗ trợ bạn 24/7 với dịch vụ nhanh chóng nhất.</p>
+                </div>
+                <div class="cta-action">
+                    <a href="tel:0949754678" class="btn btn-white btn-large">
+                        <i class="fas fa-phone-alt text-primary"></i> 0949 754 678
+                    </a>
+                    <span class="cta-subtext">TƯ VẤN MIỄN PHÍ</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <div class="logo-footer">
+                    <i class="fas fa-desktop"></i> TIN HỌC QUỐC ĐỒNG
+                </div>
+                <p>Chuyên cung cấp các giải pháp công nghệ, thiết bị văn phòng và hệ thống an ninh hàng đầu tại Cà Mau.
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/axelocamau" target="_blank" title="Facebook"><i
+                            class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Dịch Vụ</h3>
+                <ul>
+                    <li><a href="#">Sửa chữa Laptop/PC</a></li>
+                    <li><a href="#">Lắp đặt Camera an ninh</a></li>
+                    <li><a href="#">Nạp mực máy in</a></li>
+                    <li><a href="#">Thi công mạng nội bộ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h3>Thông Tin Liên Hệ</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> QL1A, Khóm 2, TT Cái Nước, Cái Nước, Cà Mau</li>
+                    <li><i class="fas fa-phone-alt"></i> 0949 754 678</li>
+                    <li><i class="fas fa-envelope"></i> tinhocquocdong@gmail.com</li>
+                    <li><i class="fas fa-clock"></i> 07:30 - 20:00 (Hàng ngày)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Tin Học Quốc Đồng. All rights reserved. Designed for excellence.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
